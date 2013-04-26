@@ -1,0 +1,169 @@
+body {
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #333;
+}
+
+.login-area {
+    font-size: 13px;
+    color: gray;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.login-link {
+    color: gray;
+    text-decoration: none;
+}
+
+.login-link:visited {
+    color: gray;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.error {
+    margin-left: 1em;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: red;
+}
+
+.left-label {
+    width: 9em;
+    float: left;
+    text-align: left;
+    margin-left: 1em;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: blue;
+    display: block;
+}
+
+label {
+  display: block;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+label + label {
+    margin-top: 20px;
+}
+
+input[type=text] {
+    width: 18em;
+    font-size: 14px;
+    padding: 2px;
+    font-family: monospace;
+}
+
+input[type=password] {
+    width: 18em;
+    font-size: 14px;
+    padding: 2px;
+    font-family: monospace;
+}
+
+textarea {
+  width: 500px;
+  height: 400px;
+  font-size: 17px;
+  font-family: monospace;
+}
+
+input[type=submit] {
+    font-size: 24px;
+    margin-left: 0.5em;
+}
+
+.main-title {
+    display: block;
+    color: #222;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.title {
+    display: block;
+    color: #222;
+    font-family: verdana,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.post + .post {
+    margin-top: 15px;
+}
+
+.label-name {
+    position: relative;
+    color: #33d;
+    margin-bottom: 5px;
+}
+
+.post-heading {
+    position: relative;
+    border-bottom: 3px solid #666;
+}
+
+.post-title {
+    font-size: 24px;
+    font-weight: bold;
+
+    text-decoration: none;
+    color: #333;
+}
+
+.post-title:visisted {
+    color: #333;
+}
+
+.post-date {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: #999;
+
+}
+
+.post-content {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    margin-top: 3px;
+    margin-bottom: 25px;
+}
+
+.age {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: gray;
+    font-size: 9px;
+}
+
+.footer {
+    font-size: 9px;
+}

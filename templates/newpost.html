@@ -1,0 +1,18 @@
+<body>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+
+	<div class="main-title">Blog</div>
+
+	<form method="post">
+		<label>
+			<div class="label-name">Subject</div>
+			<input type="text" name="subject" value={{subject}} >
+		</label>
+		<label>
+			<div class="label-name">Blog Post</div>
+			<textarea name="content">{{content}}</textarea>
+		</label>
+		<div class="error">{{error}}</div>
+		<input type="submit">
+	</form>
+</body>

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" />
+<head>
+	{% block head %}
+		<title>
+			{% block title %}{% endblock %}
+		</title>
+    {% endblock %}
+</head>
+<body>
+	<div class="main-title">Blog</div>
+	<div id="content">{% block content %}{% endblock %}</div>
+	</br>
+	<div class="footer">
+		{% block footer %}
+		&copy; Copyright 2012 by <a href="http://olivalabs.com">Oliva Labs</a>.
+		{% endblock %}
+	</div>
+</body>
